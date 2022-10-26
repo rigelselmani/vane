@@ -2,7 +2,7 @@ import "./navbar.css"
 
 export default function Navbar(){
     return (
-        <nav className="navbar navbar-expand-md  display-flex justify-content-end" style={{background: "#f566cf"}}>
+        <nav className="navbar navbar-expand-md fixed-top display-flex justify-content-end" style={{background: "#f566cf"}}>
           <div className="container display-flex">
             <a className="navbar-brand fs-4 text-light" href="/">Vanessa</a>
             <button className="navbar-toggler display-flex justify-content-end text-white"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

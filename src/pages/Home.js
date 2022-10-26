@@ -8,6 +8,8 @@ export default  function Home (){
               <div style={{fontStyle: "italic"}}>
                 <h1 className="display-4 font-weight-bold"><span className="text-danger">Vanessa</span> <span class="text-dark">Nail Tech</span></h1>
                 <p className="lead display-4 ">Professional Nail Art Tech</p>
+                <a className="contact-icon text-white fs-3" style={{textDecoration:"none"}} href="tel:703-870-6927" rel="noopener noreferrer">703-870-6927</a>
+                
               </div>
            </div>
            <div class="row mb-4 ml-4">
