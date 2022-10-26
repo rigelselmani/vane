@@ -1,0 +1,15 @@
+.jumbo{
+    margin-top:80px;
+}
+.jumbotron{
+    margin-top:90px;
+    background: linear-gradient(to bottom, #fff, #ed44c0) ;
+}
+.title-name{
+    font-style: italic;
+}
+
+.card-img-top{
+    height:230px;
+    width:80%;
+}

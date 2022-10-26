@@ -1,6 +1,5 @@
 export default function About (){
     return(
-        <div>
            <div className=" container alert mt-5" role="alert">
               <div>
                 <h1 className="display-4 font-weight-bold" style={{fontStyle:"italic"}}><span className="text-danger">Welcome to</span> <span className="text-dark">Vanessa Nail Spa</span></h1>
@@ -12,8 +11,6 @@ export default function About (){
               <div>
                  <img src="https://manipedibeautyspasanfrancisco.com/uploads/fnail07ri1nsb/product/manipedi2.png"/>
               </div>
-            
            </div>
-        </div>
     )
 }

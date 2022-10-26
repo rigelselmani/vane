@@ -1,8 +1,8 @@
 import {BrowserRouter, Route, Switch } from "react-router-dom";
-
 //pages & components
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
+import Navbar from './components/navbar/Navbar';
+import Footer from "./components/footer/Footer";
+import Home from './pages/home/Home';
 import About from './pages/About';
 
 import './App.css';
@@ -20,6 +20,7 @@ function App() {
             <About />
           </Route>
         </Switch>
+        <Footer />
     </BrowserRouter>
     </div>
   );
