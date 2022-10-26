@@ -1,0 +1,17 @@
+.about-img{
+    max-width: 100%;
+    height: auto;
+}
+.about-appointment{
+    width:100%;
+    background-color: grey;
+    color: #0a0a0a;
+    text-decoration:none;
+   
+}
+a, .app-p{
+  
+    text-decoration: none ;
+    color: #f5f1f1;
+
+}

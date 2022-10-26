@@ -1,3 +1,4 @@
+import Register from "./Register"
 
 import "./Home.css"
 
@@ -28,6 +29,7 @@ export default  function Home (){
                 </div>
                 <div className="col-md-3"></div>
             </div>
+            <Register />
         </div> 
      )
 }
