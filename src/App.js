@@ -6,6 +6,7 @@ import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Services from "./pages/services/Services";
 import Gallery from "./pages/gallery/Gallery";
+import Contact from "./pages/contact/Contact";
 
 import './App.css';
 
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path="/gallery">
             <Gallery/>
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
         </Switch>
         <Footer />
