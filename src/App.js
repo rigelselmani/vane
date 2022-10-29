@@ -5,6 +5,7 @@ import Footer from "./components/footer/Footer";
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Services from "./pages/services/Services";
+import Gallery from "./pages/gallery/Gallery";
 
 import './App.css';
 
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path="/services">
             <Services />
+          </Route>
+          <Route path="/gallery">
+            <Gallery/>
           </Route>
         </Switch>
         <Footer />
