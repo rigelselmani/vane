@@ -1,7 +1,7 @@
 export default function Gallery(){
     return(
     <div className="container">
-       <div className="row">
+       <div className="row mt-5">
            <div className="card col-3 row" style={{width: "18rem"}}>
              <img src="" className="card-img-top" alt="collection" />
              <div className="card-body">
