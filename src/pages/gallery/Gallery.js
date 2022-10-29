@@ -29,22 +29,26 @@ export default function Gallery(){
   },[])
 
     return(
-    <div className="container">
-    {error && <p styles={{marginTop:"150px"}}>{error}</p>}
-    {isPending && <p styles={{marginTop:"150px"}}>Loading...</p>}
-    <div className=" container row mt-5">
-    {data && data.map((datas)=>{
-      return (
-           <div key={datas.id} className="card col-3">
-             <img src={datas.img} className="card-img-top" alt="collection" />
-             <div className="card-body">
-               <h3>{datas.title}</h3>
-               <p className="card-text">{datas.parag}</p>
-             </div>
-           </div>
-          )
-       })}
-      </div>
-    </div>    
+      <div className="container my-5" style={{height:"100%vh"}}>
+            {error && <p styles={{marginTop:"150px"}}>{error}</p>}
+            {isPending && <p styles={{marginTop:"150px"}}>Loading...</p>}
+            <div className="row">
+            {data && data.map((datas)=>{
+              return (
+                  <div key={datas.id} className="card col-4" >
+                       <div className="card-body">
+                       <img src={datas.img} className="card-img-top" alt="collection" />
+                         <h5 className="card-title">
+                           <span className="col-6">{datas.title}</span>
+                         </h5>
+                         <p className="card-text ">
+                           <span className=" col-4">{datas.description}</span><br/>
+                         </p>
+                       </div>
+                  </div>
+                  )
+             })} 
+        </div> 
+      </div>   
     )
 }
