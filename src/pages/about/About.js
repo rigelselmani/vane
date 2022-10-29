@@ -13,9 +13,9 @@ export default function About (){
               </div>
                <img className="about-img" src="https://manipedibeautyspasanfrancisco.com/uploads/fnail07ri1nsb/product/manipedi2.png" alt=""/>
            </div>
-           <div className="about-appointment mt-0 ">
+           <div className="about-appointment  ">
                <p className="app-p fs-3">Make an Appointment?</p>
-               <a className="contact-icon fs-3" href="tel:703-870-6927" rel="noopener noreferrer">703-870-6927</a>
+               <a className="contact-icon  fs-3" href="tel:703-870-6927" rel="noopener noreferrer">703-870-6927</a>
            </div>
          </div>
     )
