@@ -1,10 +1,10 @@
 
 export default function Contact(){
     return (
-    <div className="container my-5" style={{height:"100%"}}>
-    <div className="col-2"></div>
-       <form className="col-6 contact-form mt-5">
-          <div className="mb-3">
+    <div className="container" style={{marginTop:"140px", height:"700px"}}>
+    <div className="col-4 mt-5"></div>
+       <form className="col-5 contact-form my-5 pt-5" style={{martinTop:""}}>
+          <div className="mb-3 mt-5">
             <label for="exampleInputEmail1" className="form-label">Name</label>
             <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
           </div>
@@ -18,7 +18,7 @@ export default function Contact(){
           </div>
           <button type="submit" className="btn btn-primary">Submit</button>
         </form>
-        <div className="col-2"></div>
+        <div className="col-4 mb-5"></div>
     </div>    
     )
 }

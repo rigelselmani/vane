@@ -5,7 +5,7 @@ import "./Home.css"
 export default  function Home (){
     return (  
         <div className="jumbo row mx-0 mt-5 ">
-           <div className="jumbotron col-md-12 shadow-lg  mb-5 bg-white rounded text-center text-white">
+           <div className="jumbotron col-md-12 shadow-lg  pt-5 mb-5 bg-white rounded text-center text-white">
               <img src="http://images8.design-editor.com/92/9293685/3958/8781D98C-E7A0-8B28-BED4-86520B3C7B90.jpg" className="img-thumbnail card-img-top w-25" style={{height:"170px"}} alt=""/>
               <img src="https://img.grouponcdn.com/deal/4DpuND4oxQjsme5VLb9F6K/451835441-2048x1229/v1/t300x182.jpg" className="img-thumbnail card-img-top w-25" style={{height:"230px"}} alt="" />
               <img src="http://s24193.pcdn.co/wp-content/uploads/2017/08/nail-salons-near-me-ENTITY-Instagram-lipstickmixtapes-e1504122361297.png" className=" img-thumbnail card-img-top w-25" style={{height:"320px"}} alt=""/>
