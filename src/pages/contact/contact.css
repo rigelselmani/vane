@@ -1,3 +1,6 @@
+form, .message{
+   text-align: left;
+}
 .name, .email {
     padding: 30px;
     border: none;
@@ -6,7 +9,7 @@
 .name{
     margin-right: 10px;
 }
-h2{
+h2,h3{
     color: #ed44c0;
     font-size: xx-large;
 }
@@ -20,10 +23,22 @@ h2{
     background-color: rgb(247, 181, 232);
     padding:10px 35px;
     border: none;
-   color: rgb(99, 98, 98);
+    color: rgb(99, 98, 98);
     font-size: 20px;
 }
 .btn:hover{
     color:white;
     background-color:#ed44c0 ;
+}
+ul{
+   border-left: 20px #ed44c0;
+   text-align: left;
+}
+.list-group-item{
+    border: none;
+    background-color: rgb(247, 181, 232);
+}
+.days-open{
+    font-weight: bold;
+    color: rgb(99, 98, 98);
 }

@@ -3,8 +3,8 @@ import "./contact.css"
 export default function Contact(){
     return (
     <div className="container" style={{marginTop:"140px", height:"700px"}}>
-    <div className="col-3 mt-5"></div>
-       <form className="col-6 contact-form my-5 pt-5" style={{martinTop:""}}>
+       <div className="col-1"></div>
+       <form className="col-6 contact-form message my-5 pt-5" style={{martinTop:""}}>
        <h2>Contact Form</h2>
            <div className="input-group mb-3">
             <input type="text" className="form-control name" placeholder="Name" aria-label="Username" />
@@ -15,7 +15,18 @@ export default function Contact(){
           </div>
           <button type="submit" className="btn btn-primary">Submit</button>
         </form>
-        <div className="col-3 mb-5"></div>
+        <div className="col-1"></div>
+        <ul className="list-group col-3 my-5 pt-5">
+        <h3>Hours</h3>
+          <li className="list-group-item"><span className="days-open">Mon </span> 9:00 am - 7:00 pm</li>
+          <li className="list-group-item"><span className="days-open">Tue </span> 9:00 am - 7:00 pm</li>
+          <li className="list-group-item"><span className="days-open">Wed </span> 9:00 am - 7:00 pm</li>
+          <li className="list-group-item"><span className="days-open">Thu </span> 9:00 am - 7:00 pm</li>
+          <li className="list-group-item"><span className="days-open">Fri </span> 9:00 am - 7:00 pm</li>
+          <li className="list-group-item"><span className="days-open">Sat </span> 8:00 am - 8:30 pm</li>
+          <li className="list-group-item"><span className="days-open">Sun </span> 8:00 am - 5:00 pm</li>
+        </ul>
+        <div className="col-1"></div>
     </div>    
     )
 }
