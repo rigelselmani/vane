@@ -1,0 +1,29 @@
+.name, .email {
+    padding: 30px;
+    border: none;
+    background-color: rgb(247, 181, 232);
+}
+.name{
+    margin-right: 10px;
+}
+h2{
+    color: #ed44c0;
+    font-size: xx-large;
+}
+.text-area{
+    padding: 30px;
+    border: none;
+    margin: 20px auto;
+    background-color: rgb(247, 181, 232);
+}
+.btn{
+    background-color: rgb(247, 181, 232);
+    padding:10px 35px;
+    border: none;
+   color: rgb(99, 98, 98);
+    font-size: 20px;
+}
+.btn:hover{
+    color:white;
+    background-color:#ed44c0 ;
+}

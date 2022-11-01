@@ -1,6 +1,8 @@
 import { projectFirestore } from "../../firebase/config";
 import { useState } from "react";
 
+import "./Home.css"
+
 export default function Register(){
 
     const [subscribe,setSubscribe]=useState("");
@@ -23,7 +25,7 @@ export default function Register(){
                 <label for="exampleInputEmail1">Subscribe to recieve cupons.</label>
                 <input onChange={((e)=>setSubscribe(e.target.value))} value={subscribe} type="email" className="form-control" id="exampleInputEmail1" name="subscribe"    aria-describedby="emailHelp" placeholder="Enter your email address" />
               </div>
-              <button type="submit" className="btn btn-primary mt-2">Subscribe</button>
+              <button type="submit" className="btn mt-2">Subscribe</button>
             </form>
         </div>
     )
