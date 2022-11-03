@@ -2,7 +2,7 @@ import "./contact.css"
 
 export default function Contact(){
     return (
-    <div className="container" style={{marginTop:"140px", height:"700px"}}>
+    <div className="container" style={{marginTop:"145px", height:"800px"}}>
        <div className="col-1"></div>
        <form className="col-6 contact-form message my-5 pt-5" style={{martinTop:""}}>
        <h2>Contact Form</h2>
@@ -13,7 +13,7 @@ export default function Contact(){
           <div className="mb-3">
             <textarea type="text" rows="5" className=" form-control text-area" id="exampleInputPassword1" placeholder="Message" />
           </div>
-          <button type="submit" className="btn " style={{background:"rgb(247, 181, 232)", color:"rgb(99, 98, 98)"}}>Submit</button>
+          <button type="submit" className="btn ">Submit</button>
         </form>
         <div className="col-1"></div>
         <ul className="list-group col-3 my-5 pt-5">
