@@ -13,7 +13,7 @@ export default function Contact(){
           <div className="mb-3">
             <textarea type="text" rows="5" className=" form-control text-area" id="exampleInputPassword1" placeholder="Message" />
           </div>
-          <button type="submit" className="btn btn-primary">Submit</button>
+          <button type="submit" className="btn " style={{background:"rgb(247, 181, 232)", color:"rgb(99, 98, 98)"}}>Submit</button>
         </form>
         <div className="col-1"></div>
         <ul className="list-group col-3 my-5 pt-5">
