@@ -4,7 +4,7 @@ export default function Navbar(){
     return (
         <nav className="navbar navbar-expand-md fixed-top mb-5 display-flex justify-content-end">
           <div className="container display-flex">
-            <a className="navbar-brand fs-4 text-light" href="/">Vanessa Nail Spa</a>
+            <a className="navbar-brand text-light fst-italic" style={{fontWeight:"bold", fontSize:"30px"}} href="/">Vanessa Nail Spa</a>
             <button className="navbar-toggler display-flex justify-content-end text-white"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <div className="navbar-toggler-icon text-white"></div>
             </button>

@@ -1,31 +1,46 @@
+import Hours from "./Hours"
+import { useState } from "react"
+import { send } from "emailjs-com"
+
 import "./contact.css"
 
 export default function Contact(){
+
+    const [sender_name,set_sender_name]=useState("");
+    const [sender_email,set_sender_email]=useState("");
+    const [message,set_message]=useState("");
+
+    function sendMail(e){
+      e.preventDefault()
+      send(
+        "service_ym16l15",
+        "template_oa2q5qp",
+        {sender_name, sender_email, message},
+        "cg_p1GRyMNmDPq4tH"
+      ).then((response)=> {
+        console.log("Message sent successfully", response.status,response.text)
+      })
+      .catch((err) =>{
+        console.log("Failed", err)
+      })
+      console.log(sender_name, sender_email, message)
+    }
     return (
     <div className="container" style={{marginTop:"145px", height:"800px"}}>
        <div className="col-1"></div>
-       <form className="col-6 contact-form message my-5 pt-5" style={{martinTop:""}}>
-       <h2>Contact Form</h2>
+       <form className="col-6 contact-form message my-5 pt-5" onSubmit={sendMail} style={{martinTop:""}}>
+          <h2>Contact Form</h2>
            <div className="input-group mb-3">
-            <input type="text" className="form-control name" placeholder="Name" aria-label="Username" />
-            <input type="email" className="form-control email" placeholder="Email" aria-label="Server" />
+            <input name="sender_name" type="text" value={sender_name} onChange={(e)=>{ set_sender_name(e.target.value)}}className="form-control name" id="name" placeholder="Name" aria-label="Username" />
+            <input email="sender_email" type="email"  value={sender_email} onChange={(e)=>{ set_sender_email(e.target.value)}} className="form-control email" id="email" placeholder="Email" aria-label="Server" />
           </div>
           <div className="mb-3">
-            <textarea type="text" rows="5" className=" form-control text-area" id="exampleInputPassword1" placeholder="Message" />
+            <textarea type="text" value={message} name="message" rows="5" onChange={(e)=>{ set_message(e.target.value)}} className=" form-control text-area" id="message" placeholder="Message" />
           </div>
           <button type="submit" className="btn ">Submit</button>
         </form>
         <div className="col-1"></div>
-        <ul className="list-group col-3 my-5 pt-5">
-        <h3>Hours</h3>
-          <li className="list-group-item"><span className="days-open">Mon </span> 9:00 am - 7:00 pm</li>
-          <li className="list-group-item"><span className="days-open">Tue </span> 9:00 am - 7:00 pm</li>
-          <li className="list-group-item"><span className="days-open">Wed </span> 9:00 am - 7:00 pm</li>
-          <li className="list-group-item"><span className="days-open">Thu </span> 9:00 am - 7:00 pm</li>
-          <li className="list-group-item"><span className="days-open">Fri </span> 9:00 am - 7:00 pm</li>
-          <li className="list-group-item"><span className="days-open">Sat </span> 8:00 am - 8:30 pm</li>
-          <li className="list-group-item"><span className="days-open">Sun </span> 8:00 am - 5:00 pm</li>
-        </ul>
+        <Hours />
         <div className="col-1"></div>
     </div>    
     )

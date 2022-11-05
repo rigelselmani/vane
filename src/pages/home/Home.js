@@ -12,7 +12,7 @@ export default  function Home (){
               <div className="title-name">
                 <h1 className="display-4 font-weight-bold fs-2"><span className="text-danger">Vanessa</span> <span className="text-dark">Nail Tech</span></h1>
                 <p className="lead display-4 fs-2">Professional Nail Art Tech</p>
-                <a className="contact-icon text-white fs-2" style={{textDecoration:"none"}} href="tel:703-870-6927" rel="noopener noreferrer">703-870-6927</a>
+                <a className="contact-icon text-white fs-2" style={{textDecoration:"none"}} href="tel:703-870-6927" rel="noopener noreferrer"><i className="fa-regular fa-phone"></i>703-870-6927</a>
                 
               </div>
            </div>
