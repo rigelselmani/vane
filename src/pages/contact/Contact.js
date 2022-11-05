@@ -23,7 +23,9 @@ export default function Contact(){
       .catch((err) =>{
         console.log("Failed", err)
       })
-      console.log(sender_name, sender_email, message)
+      set_sender_name("")
+      set_sender_email("")
+      set_message("")
     }
     return (
     <div className="container" style={{marginTop:"145px", height:"800px"}}>
