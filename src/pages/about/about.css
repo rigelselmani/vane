@@ -2,6 +2,9 @@
     max-width: 100%;
     height: auto;
 }
+.about-text{
+    padding: 20px;
+}
 .about-appointment{
     width:100%;
     background-color: grey;
@@ -13,4 +16,24 @@ a, .app-p{
   
     text-decoration: none ;
     color: #f5f1f1;
+}
+@media only screen and (max-width: 768px) {
+    .about-img{
+        width: 95%;
+        height: auto;
+    }
+    .about-content{
+        display: block;
+    }
+    .no-display-p{
+        display: none;
+    }
+}
+@media only screen and (max-width: 425px) {
+     .about-text{
+        padding: 0;
+     }
+     .about-img{
+        width: 100%;
+    }
 }
