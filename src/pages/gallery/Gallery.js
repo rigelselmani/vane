@@ -35,7 +35,7 @@ export default function Gallery(){
             <div className="row">
             {data && data.map((datas)=>{
               return (
-                  <div key={datas.id} className="card col-4" >
+                  <div key={datas.id} className="card col-lg-4 col-md-5 mx-auto" >
                        <div className="card-body">
                        <img src={datas.img} className="card-img-top" alt="collection" />
                          <h5 className="card-title">
