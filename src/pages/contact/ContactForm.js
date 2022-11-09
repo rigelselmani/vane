@@ -26,7 +26,7 @@ export default function ContactForm(){
     }
 
     return (
-        <form className="col-7 contact-form message mt-5 pt-5" onSubmit={sendMail} style={{martinTop:""}}>
+        <form className="col-lg-7 col-md-9 col-sm-11contact-form message mt-5 pt-5" onSubmit={sendMail} style={{martinTop:""}}>
           <h2>Contact Form</h2>
            <div className="input-group mb-3">
             <input name="sender_name" type="text" value={sender_name} onChange={(e)=>{ set_sender_name(e.target.value)}}className="form-control name" id="name" placeholder="Name" aria-label="Username" />
