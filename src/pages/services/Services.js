@@ -2,10 +2,10 @@ import "./services.css"
 
 export default function Services (){
     return(
-        <div className="container  my-5">
-            <div className="row">
+        <div className="container services-content my-5">
+            <div className="row mt-5">
                  
-                  <div className="card col-4" >
+                  <div className="card col-lg-4 col-md-6 col-sm-10 mx-auto" >
                        <div className="card-body">
                        <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2019_51/1087901/manicure-nail-salon-today-160513-tease-03.jpg" className="card-img-top" alt="..." />
                          <h5 className="card-title">
@@ -21,7 +21,7 @@ export default function Services (){
                        </div>
                   </div>
                   
-                  <div className="card col-4 " >
+                  <div className="card col-lg-4  col-md-6 col-sm-10 mx-auto" >
                        <div className="card-body">
                        <img src="https://i.ytimg.com/vi/AEKGC4ccBsw/maxresdefault.jpg" className="card-img-top" alt="..." />
                          <h5 className="card-title">
@@ -37,7 +37,7 @@ export default function Services (){
                          </p>
                        </div>
                   </div>
-                  <div className="card col-4" >
+                  <div className="card col-lg-4  col-md-6 col-sm-10 mx-auto" >
                        <div className="card-body">
                        <img src="http://5starsnailsinc.com/wp-content/uploads/2022/07/4.jpg" className="card-img-top" alt="..." />
                          <h5 className="card-title">
@@ -53,7 +53,7 @@ export default function Services (){
                        </div>
                   </div>
 
-                   <div className="card col-4" >
+                   <div className="card col-lg-4  col-md-6 col-sm-10 mx-auto" >
                        <div className="card-body">
                        <img src="https://m.media-amazon.com/images/I/51fu9VJ3DYL._AC_SY1000_.jpg" className="card-img-top" alt="..." />
                          <h5 className="card-title">
@@ -67,7 +67,7 @@ export default function Services (){
                          </p>
                        </div>
                   </div>
-                  <div className="card col-4" >
+                  <div className="card col-lg-4  col-md-6 col-sm-10 mx-auto" >
                        <div className="card-body">
                        <img src="https://regalianailsandspaaustin.com/uploads/venetixibiolv/logo/2019/11/21/slide20.png" className="card-img-top" alt="..." />
                          <h5 className="card-title">
@@ -84,7 +84,7 @@ export default function Services (){
                          </p>
                        </div>
                   </div>
-                  <div className="card col-4" >
+                  <div className="card col-lg-4  col-md-6 col-sm-10 mx-auto" >
                        <div className="card-body">
                        <img src="https://www.byrdie.com/thmb/mf8ddOqnm8XsfWh-NkBBEVSdJz4=/600x600/smart/filters:no_upscale()/eyelashes-a993338dc98940b6af3a715eae3935cc.jpg" className="card-img-top" alt="..." />
                          <h5 className="card-title">
