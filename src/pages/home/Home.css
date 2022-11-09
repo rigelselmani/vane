@@ -20,27 +20,29 @@
 .form-group {
    width:16%;
 }
-@media only screen and (max-width: 425px) {
-   
-    .form-control{
-        width:100%;
+@media only screen and (max-width: 1024px) {
+    .form-group{
+        width:25%;
+        text-align:center
     }
   }
-@media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     .card-img-top{
-       height:320px;
+       /* height:320px; */
     }
     .subscribe-form{
         width:100%;
     }
     .form-group{
-        width:65%;
+        width:35%;
     }
   }
-  
-  @media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 425px) {
+   
+    .form-control{
+        width:100%;
+    }
     .form-group{
-        width:35%;
-        text-align:center
+        width:55%;
     }
   }

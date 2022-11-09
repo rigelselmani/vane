@@ -32,7 +32,7 @@ export default function Gallery(){
       <div className="container my-5" style={{height:"100%vh"}}>
             {error && <p styles={{marginTop:"150px"}}>{error}</p>}
             {isPending && <p styles={{marginTop:"150px"}}>Loading...</p>}
-            <div className="row">
+            <div className="row mt-5">
             {data && data.map((datas)=>{
               return (
                   <div key={datas.id} className="card col-lg-4 col-md-5 mx-auto" >
