@@ -10,7 +10,7 @@ export default  function Home (){
               <img src="https://img.grouponcdn.com/deal/4DpuND4oxQjsme5VLb9F6K/451835441-2048x1229/v1/t300x182.jpg" className="img-thumbnail d-none d-md-inline d-lg-inline card-img-top w-25" style={{height:"230px"}} alt="" />
               <img src="http://s24193.pcdn.co/wp-content/uploads/2017/08/nail-salons-near-me-ENTITY-Instagram-lipstickmixtapes-e1504122361297.png" className=" img-thumbnail d-none d-md-inline d-lg-inline card-img-top w-25" style={{height:"320px"}} alt=""/>
               <div className="title-name">
-                <h1 className="display-4 font-weight-bold fs-2"><span className="text-danger">Pure</span> <span className="text-dark">Nail Tech</span></h1>
+                <h1 className="display-4 font-weight-bold fs-2"><span className="text-danger">Vanessa</span> <span className="text-dark">Nail Tech</span></h1>
                 <p className="lead display-4 fs-2">Professional Nail Art Tech</p>
                 <a className="contact-icon text-white fs-2" style={{textDecoration:"none"}} href="tel:703-870-6927" rel="noopener noreferrer"><i className="fa-regular fa-phone"></i>703-870-6927</a>
                 
