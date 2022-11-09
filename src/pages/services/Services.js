@@ -5,7 +5,7 @@ export default function Services (){
         <div className="container services-content my-5">
             <div className="row mt-5">
                  
-                  <div className="card col-lg-4 col-md-6 col-sm-10" >
+                  <div className="card col-lg-4g col-md-6 col-sm-10" >
                        <div className="card-body">
                        <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2019_51/1087901/manicure-nail-salon-today-160513-tease-03.jpg" className="card-img-top" alt="..." />
                          <h5 className="card-title">
